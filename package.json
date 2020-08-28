@@ -1,30 +1,30 @@
 {
-    "name": "nuxt-seomatic-meta",
-    "version": "0.2.0",
-    "description": "A Nuxt.js module connecting Nuxt.js to the Craft CMS SEOmatic plugin",
-    "keywords": [
-        "vue",
-        "seomatic",
-        "seo",
-        "craft",
-        "craftcms",
-        "nuxt",
-        "nuxtjs"
-    ],
-    "main": "lib/module.js",
-    "files": [
-        "lib"
-    ],
-    "author": "Ben Rogerson <info@benrogerson.com.au> (https://benrogerson.com.au)",
-    "license": "ISC",
-    "dependencies": {
-        "@nuxtjs/axios": "^5.9.5",
-        "consola": "^2.11.3"
-    },
-    "prettier": {
-        "trailingComma": "es5",
-        "tabWidth": 2,
-        "semi": false,
-        "singleQuote": true
-    }
+  "name": "nuxt-seomatic-meta-apollo",
+  "version": "0.2.0",
+  "description": "A fork of nuxt-seomatic-meta to get SEOMatic data into Nuxt, but with Apollo.",
+  "keywords": [
+    "vue",
+    "seomatic",
+    "seo",
+    "craft",
+    "craftcms",
+    "nuxt",
+    "nuxtjs"
+  ],
+  "main": "lib/module.js",
+  "files": [
+    "lib"
+  ],
+  "author": "Jon Griffith <jon@jongriffith.codes> (https://jongriffith.codes)",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.3",
+    "consola": "^2.11.3"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  }
 }
