@@ -19,7 +19,8 @@
   "license": "ISC",
   "dependencies": {
     "@nuxtjs/apollo": "^4.0.1-rc.3",
-    "consola": "^2.11.3"
+    "consola": "^2.11.3",
+    "graphql-tag": "^2.11.0"
   },
   "prettier": {
     "trailingComma": "es5",
