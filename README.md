@@ -23,20 +23,20 @@ Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com
    # or: npm install nuxt-seomatic-meta
    ```
 
-2. Add the seomatic-meta and axios plugins to your modules section in `nuxt.config.js`:
+2. Add the seomatic-meta and apollo plugins to your modules section in `nuxt.config.js`:
 
    ```js
    /*
     ** Nuxt.js modules
     */
    modules: [
-     'nuxt-seomatic-meta',
-     '@nuxtjs/axios',
+     'nuxt-seomatic-meta-apollo',
+     '@nuxtjs/apollo',
      // '@nuxtjs/dotenv',
    ],
    ```
 
-   _'@nuxtjs/axios'_: Axios is used to connect to the Craft CMS API - it's automatically installed as a dependency of `nuxt-seomatic-meta` so you'll just need to add it to the array.
+   _'@nuxtjs/apollo'_: Apollo is used to connect to the Craft CMS API - it's automatically installed as a dependency of `nuxt-seomatic-meta-apollo` so you'll just need to add it to the array.
 
    _'@nuxtjs/dotenv'_ (optional): To specify your GraphQL connection variables in a `.env` file then [install the nuxt dotenv module](https://github.com/nuxt-community/dotenv-module#setup).
 
@@ -45,12 +45,6 @@ Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com
    a) Add the connection settings to an `.env` file in your project root (if you're using the [@nuxtjs/dotenv](https://github.com/nuxt-community/dotenv-module#setup) module):
 
    ```bash
-   # Craft installation url
-   BACKEND_URL=https://YOUR_DOMAIN
-
-   # GraphQL api path
-   GRAPHQL_PATH=/api
-
    # GraphQL bearer token (Not required if API is public)
    GRAPHQL_TOKEN=ACCESS_TOKEN_SECRET
    ```
@@ -62,8 +56,6 @@ Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com
     ** Seomatic meta config
     */
    seomaticMeta: {
-     backendUrl: 'http://YOUR_DOMAIN',
-     graphqlPath: '/api',
      graphqlToken: 'ACCESS_TOKEN_SECRET',
    },
    ```
@@ -108,8 +100,6 @@ seomaticMeta: {
       getFrom: 'gets-meta-from-this-route-instead',
     },
   ],
-  backendUrl: 'http://YOUR_DOMAIN',
-  graphqlPath: '/api',
   graphqlToken: 'ACCESS_TOKEN_SECRET',
 },
 ```
