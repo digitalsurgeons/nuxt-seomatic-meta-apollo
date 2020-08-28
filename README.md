@@ -12,8 +12,6 @@ This module grabs the SEOmatic data and converts it to a format that Nuxt.js exp
 
 Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com/craftcms/cms/blob/develop/CHANGELOG-v3.md#330---2019-08-27), [SEOmatic (>=3.2.28)](https://github.com/nystudio107/craft-seomatic/releases/tag/3.2.28) and enabled [Crafts GraphQL API](https://docs.craftcms.com/v3/graphql.html#getting-started).
 
-⚠️ Note: Craft can't be in `headlessMode` - [Headless mode](https://docs.craftcms.com/v3/config/config-settings.html#headlessmode) won't work with SEOmatic as we need to match the URI which gets turned off when headlessMode is enabled.
-
 ⚠️ Note: Within `Craft > GraphQL > Schemas`, be sure to adjust the scope to the right entries in the GraphQL schema - I find it easy to forget that.
 
 1. Install `nuxt-seomatic-meta-apollo` via yarn or npm:
