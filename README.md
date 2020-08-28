@@ -16,11 +16,11 @@ Before starting, I'll assume you've installed [Craft (>=3.3)](https://github.com
 
 ⚠️ Note: Within `Craft > GraphQL > Schemas`, be sure to adjust the scope to the right entries in the GraphQL schema - I find it easy to forget that.
 
-1. Install `nuxt-seomatic-meta` via yarn or npm:
+1. Install `nuxt-seomatic-meta-apollo` via yarn or npm:
 
    ```sh
-   yarn add nuxt-seomatic-meta
-   # or: npm install nuxt-seomatic-meta
+   yarn add nuxt-seomatic-meta-apollo
+   # or: npm install nuxt-seomatic-meta-apollo
    ```
 
 2. Add the seomatic-meta and apollo plugins to your modules section in `nuxt.config.js`:
