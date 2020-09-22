@@ -4,7 +4,7 @@
   <img width="80%" src="https://i.imgur.com/BFG9Nn2.png" alt="Icon">
 </p>
 
-Forked from <a href="https://github.com/ben-rogerson/nuxt-seomatic-meta">Ben Rogerson's nuxt-seomatic-meta</a>.
+Forked from <a href="https://github.com/ben-rogerson/nuxt-seomatic-meta">Ben Rogerson's nuxt-seomatic-meta</a>. Works with Apollo instead of Axios. Also works with Craft in Headless mode.
 
 If you're using Nuxt.js with Craft CMS headless then there's a good chance you'll be aiming for some decent SEO. A custom solution would take too much time, so a great alternative is to request the SEO data from [SEOmatic](https://plugins.craftcms.com/seomatic) via GraphQL.
 
