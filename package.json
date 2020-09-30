@@ -1,6 +1,6 @@
 {
   "name": "nuxt-seomatic-meta-apollo",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A fork of nuxt-seomatic-meta to get SEOMatic data into Nuxt, but with Apollo.",
   "repository": "github:devotoare/nuxt-seomatic-meta-apollo",
   "keywords": [
